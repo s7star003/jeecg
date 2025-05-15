@@ -1,0 +1,6 @@
+tiktok:
+  app-key: 6fne36nocfqpj
+  app-secret: 2832b9ab4ef88f3860a6cf25368f4a9b298112aa
+  region: ES
+  shop-id: 7496011340563450827
+  redirect-uri: https://prompt-pumped-kangaroo.ngrok-free.app/jeecg-boot/api/tiktok/callback
