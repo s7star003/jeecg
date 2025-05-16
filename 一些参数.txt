@@ -1,0 +1,17 @@
+https://auth.tiktok-shops.com/oauth/authorize?app_key=6fne36nocfqpj&scope=orders&state=xyz&redirect_uri=https://prompt-pumped-kangaroo.ngrok-free.app/
+
+https://auth.tiktok-shops.com/oauth/authorize?app_key=6fne36nocfqpj&response_type=code&redirect_uri=https://prompt-pumped-kangaroo.ngrok-free.app/jeecg-boot/&scope=shop_info,order_info
+https://auth.tiktok-shops.com/oauth/authorize?app_key=6fne36nocfqpj&response_type=code&redirect_uri=https://prompt-pumped-kangaroo.ngrok-free.app/jeecg-boot/api/tiktok/callback&scope=shop_info,order_info
+
+
+http://192.168.1.254/jeecg-boot/tiktok/order/list?page=1&pageSize=10
+
+# 配置信息
+APP_KEY = "6fne36nocfqpj"
+APP_SECRET = "2832b9ab4ef88f3860a6cf25368f4a9b298112aa"
+# 设置默认区域
+DEFAULT_REGION = "ES"  # 西班牙
+# 店铺ID
+SHOP_ID = "7496011340563450827"
+
+https://prompt-pumped-kangaroo.ngrok-free.app/api/tiktok/callback

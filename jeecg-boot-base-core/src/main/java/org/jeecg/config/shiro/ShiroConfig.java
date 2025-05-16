@@ -169,6 +169,7 @@ public class ShiroConfig {
         filterChainDefinitionMap.put("/websocket/**", "anon");//系统通知和公告
         filterChainDefinitionMap.put("/newsWebsocket/**", "anon");//CMS模块
         filterChainDefinitionMap.put("/vxeSocket/**", "anon");//JVxeTable无痕刷新示例
+        
 
         //性能监控——安全隐患泄露TOEKN（durid连接池也有）
         //filterChainDefinitionMap.put("/actuator/**", "anon");
@@ -181,6 +182,8 @@ public class ShiroConfig {
         filterChainDefinitionMap.put("/WW_verify*", "anon");
 
         filterChainDefinitionMap.put("/openapi/call/**", "anon");
+        filterChainDefinitionMap.put("/api/tiktok/callback/**", "anon");
+        filterChainDefinitionMap.put("/api/tiktok/callback", "anon");
 
         // 添加自己的过滤器并且取名为jwt
         Map<String, Filter> filterMap = new HashMap<String, Filter>(1);
