@@ -1,5 +1,5 @@
 server:
-  port: 80
+  port: 8080
   undertow:
     worker-threads: 16
   error:
@@ -302,20 +302,20 @@ justauth:
     GITHUB:
       client-id: ??
       client-secret: ??
-      redirect-uri: http://sso.test.com:80/jeecg-boot/sys/thirdLogin/github/callback
+      redirect-uri: http://sso.test.com:8080/jeecg-boot/sys/thirdLogin/github/callback
     WECHAT_ENTERPRISE:
       client-id: ??
       client-secret: ??
-      redirect-uri: http://sso.test.com:80/jeecg-boot/sys/thirdLogin/wechat_enterprise/callback
+      redirect-uri: http://sso.test.com:8080/jeecg-boot/sys/thirdLogin/wechat_enterprise/callback
       agent-id: ??
     DINGTALK:
       client-id: ??
       client-secret: ??
-      redirect-uri: http://sso.test.com:80/jeecg-boot/sys/thirdLogin/dingtalk/callback
+      redirect-uri: http://sso.test.com:8080/jeecg-boot/sys/thirdLogin/dingtalk/callback
     WECHAT_OPEN:
       client-id: ??
       client-secret: ??
-      redirect-uri: http://sso.test.com:80/jeecg-boot/sys/thirdLogin/wechat_open/callback
+      redirect-uri: http://sso.test.com:8080/jeecg-boot/sys/thirdLogin/wechat_open/callback
   cache:
     type: default
     prefix: 'demo::'

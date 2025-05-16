@@ -384,7 +384,6 @@ justauth:
       client-id: ??
       client-secret: ??
       redirect-uri: http://sso.test.com:8080/jeecg-boot/thirdLogin/dingtalk/callback
-      
   cache:
     type: default
     prefix: ''demo::''

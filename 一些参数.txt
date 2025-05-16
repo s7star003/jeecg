@@ -3,6 +3,8 @@ https://auth.tiktok-shops.com/oauth/authorize?app_key=6fne36nocfqpj&scope=orders
 https://auth.tiktok-shops.com/oauth/authorize?app_key=6fne36nocfqpj&response_type=code&redirect_uri=https://prompt-pumped-kangaroo.ngrok-free.app/jeecg-boot/&scope=shop_info,order_info
 https://auth.tiktok-shops.com/oauth/authorize?app_key=6fne36nocfqpj&response_type=code&redirect_uri=https://prompt-pumped-kangaroo.ngrok-free.app/jeecg-boot/api/tiktok/callback&scope=shop_info,order_info
 
+https://prompt-pumped-kangaroo.ngrok-free.app/jeecg-boot/api/tiktok/callback?code=testcode
+
 
 http://192.168.1.254/jeecg-boot/tiktok/order/list?page=1&pageSize=10
 
@@ -14,4 +16,12 @@ DEFAULT_REGION = "ES"  # 西班牙
 # 店铺ID
 SHOP_ID = "7496011340563450827"
 
-https://prompt-pumped-kangaroo.ngrok-free.app/api/tiktok/callback
+https://prompt-pumped-kangaroo.ngrok-free.app/jeecg-boot/tiktok/order/list?page=1&pageSize=10
+
+https://prompt-pumped-kangaroo.ngrok-free.app/jeecg-boot/api/tiktok/callback?code=testcode
+
+http://192.168.1.56:3100/login
+
+NGROK:
+ngrok config add-authtoken 2uxUVa60V9OBYnbdgLhV6KOT89l_KpGiyTsQp9R3KfCj7kpX
+ngrok http --url=prompt-pumped-kangaroo.ngrok-free.app 80
